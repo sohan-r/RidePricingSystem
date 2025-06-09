@@ -39,6 +39,7 @@ http://127.0.0.1:8000/pricing/api/calculate-price/ for the API.
 📬 API Usage:
 
 POST /calculate-price/:
+
 Example:
 Request Body:
 json
@@ -60,10 +61,12 @@ json
   }
 }
 
-🧪 Run Tests
+🧪 Run Tests:
+
 python manage.py test
 
 🗂️ Tech Stack
+
 Python 3.x
 Django
 Django REST Framework
