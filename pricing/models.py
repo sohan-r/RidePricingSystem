@@ -29,7 +29,7 @@ class TimeMultiplierTier(models.Model):
     pricing_config = models.ForeignKey(
         PricingConfig, 
         on_delete=models.CASCADE,
-        related_name="time_multipliers"  # ✅ ADD THIS
+        related_name="time_multipliers"  
     )
     min_minutes = models.IntegerField()
     max_minutes = models.IntegerField()
