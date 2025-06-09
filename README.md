@@ -24,14 +24,17 @@ source env/bin/activate    # On macOS/Linux
 3. Install Requirements
 pip install -r requirements.txt
 
-4. Run Migrations
+4. Run Migrations:
+
 python manage.py makemigrations
 python manage.py migrate
 
-5. Create Superuser 
+5. Create Superuser:
+ 
 python manage.py createsuperuser
 
-6. Run the Development Server
+6. Run the Development Server:
+
 python manage.py runserver
 Now visit http://127.0.0.1:8000/admin/ to manage pricing configs, and
 http://127.0.0.1:8000/pricing/api/calculate-price/ for the API.
