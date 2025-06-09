@@ -36,10 +36,11 @@ python manage.py runserver
 Now visit http://127.0.0.1:8000/admin/ to manage pricing configs, and
 http://127.0.0.1:8000/pricing/api/calculate-price/ for the API.
 
-📬 API Usage
-POST /calculate-price/:
+📬 API Usage:
 
-Example Request Body:
+POST /calculate-price/:
+Example:
+Request Body:
 json
 {
   "day_of_week": "MON",
