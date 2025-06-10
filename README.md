@@ -33,6 +33,10 @@ python manage.py migrate
  
 python manage.py createsuperuser
 
+superuser credentials:
+username: admin 
+password: admin
+
 6. Run the Development Server:
 
 python manage.py runserver
